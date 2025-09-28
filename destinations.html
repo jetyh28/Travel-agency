@@ -26,12 +26,12 @@
 </head>
 <body>
     <header>
-        <div class="business-logo">
-        <img src="../images/icon.png" alt="logo" class="logo">
-        <h1>Traviaje</h1>
+        <div class="travel-logo">
+        <img src="../images/logo.jpg" alt="logo" class="logo">
+        <h1 class="logo-text">Traviaje</h1>
         </div>
         <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -63,66 +63,243 @@
 
 
 
-<div class="container" style="margin-bottom: 100px;">
-  <h1 class="display-4 text-center">Destinations</h1>
+<div class="container-fluid" style="background-color: black;">
+  <h1 class="display-4 text-center" style="color:white;">New destinations in the U.S and Europe</h1>
     </div>
 
-  </p>
 </div>
   
-<div class="container-fluid text-center" style="background-color: #be8c2c">
-  <h2>Upcoming Fall Destinations</h2>
+<div class="container-fluid text-center" style="background-color: #f3f3f3" id="destinations-div">
+  <h2>U.S Destinations</h2>
 
-  <!-- Card -->
+  <!-- Domestic Destination Columns -->
+   <!-- First destination-->
 <div class="row">
   <div class="col-sm-4">
-    <div class="card" style="width: 500px; height:500px;">
-      <span class="title">The Berkshires, Massachusetts</span>
-    <img class="card-img-top" src="../images/berkshires.jpg" alt="Card image cap">
-    <div class="card-body">
-      <p class="card-text">Since the number one attraction this time of year is the fall foliage, why not plan a getaway based on your favorite fall color? Crimson, pumpkin, goldenrod and chestnut:
-         Which shade will guide your next visit?</p>
+    <h3>Maui, Hawai</h3>
+    <p>What can be done in this location?</p>
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../images/maui.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/maui2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/maui3.jpg" alt="Third slide">
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <p>Price: Starting at $800 per person Flying from PHL</p>
+</div>
+
+
+
   </div>
+<!--Second Destination-->
+
 
   <div class="col-sm-4">
-    <div class="card">
-      <span class="title">Stowe, Vermont</span>
-      
-      <img class="card-img-top" src="../images/vermont.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Experience the beauty and charm of Stowe with a wide range of unforgettable experiences for every season. 
-          Whether you're seeking relaxation or adventure, there's something here for everyone to.</p>
-      </div>
+    <h3>Niagara Falls, NY</h3>
+
+    <p>What can be done in this location?</p>
+    <div id="carousel2" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel2" data-slide-to="1"></li>
+    <li data-target="#carousel2" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="../images/nf.jpg" alt="Niagara Falls">
     </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/nf2.jpg" alt="Niagara Falls">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/nf3.jpg" alt="Niagara Falls">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <p>Price: Starting at $800 per person Flying from PHL</p>
+</div>
+
+
+
+
+
+
+
+
     </div>
 
 
-     <div class="col-sm-4">
-    <div class="card">
-      <span class="title">Custer State Park, South Dakota</span>
-      
-      <img class="card-img-top" src="../images/sd.jpg" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
+
+
+    <!-- Third Destination-->
+  <div class="col-sm-4">
+    <h3>San Francisco, CA</h3>
+    <p>What can be done in this location?</p>
+    <div id="carousel3" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel3" data-slide-to="1"></li>
+    <li data-target="#carousel3" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100" src="../images/sf.jpg" alt="San Francisco">
     </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/sf2.jpg" alt="San Francisco">
     </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/sf3.jpg" alt="San Francisco">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel3" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <p>Price: Starting at $800 per person Flying from PHL</p>
+</div>
+    
+</div>
+</div> 
+<!-- closing the us destinations row -->
+<!--Europe Destinations-->
+
+<!--Div Row holding columns-->
+ <div class="spacer" style="height:150px"></div>
+ <div class="container text-center">
+   <h2>Europe Destinations</h2>
+
+<div class="row align-items-center">
+ 
+<div class="col-sm-6">
+  <h3>Italy</h3>
+
+  <p>What can be done in this location?</p>
+    <div id="carousel4" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carousel3" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel3" data-slide-to="1"></li>
+    <li data-target="#carousel3" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100" src="../images/italy.jpg" alt="Italy">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/italy2.jpg" alt="Italy">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/italy3.jpg" alt="Italy">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel4" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+  <p>Price: Starting at $800 per person Flying from PHL</p>
+</div>
 
 </div>
 
 
+<div class="col-sm-6">
+    <h3>Scotland</h3>
+
+    <p>What can be done in this location?</p>
+    <div id="carousel5" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+    <li data-target="#carousel5" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel5" data-slide-to="1"></li>
+    <li data-target="#carousel5" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img class="d-block w-100" src="../images/scot.jpg" alt="San Francisco">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/scot2.jpg" alt="San Francisco">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="../images/scot3.jpg" alt="San Francisco">
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carousel5" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel5" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 
-  </div>
+  <p>Price: Starting at $800 per person Flying from PHL</p>
+</div>
 
 
 
-  </div>
+
+  
+</div>
+
+<div class="container text-center">
+  <h2> Button goes here</h2>
+  <a class="btn btn-primary btn-lg" href="destinations.html" role="button"> Book now</a> 
+ 
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
  
 
-</div>
 
 
 </body>

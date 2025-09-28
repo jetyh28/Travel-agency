@@ -1,10 +1,25 @@
 /* body, html {
     /* background-color: orange; */
 /* } */ 
+.logo-text{
+   
+    width: 150px;
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+    left: 50px;
+}
+.logo {
+    width: 50px;
+}
 
+.nav-link:hover {
+    color: #af9c77 !important;
+    text-decoration: dotted;
+}
 .jumbotron {
     position: relative;
-    height: 400px;
+    height: 550px;
     z-index:1;
     margin-bottom: 10rem;
 
@@ -16,6 +31,7 @@
 
 .jumbotron h1, p, h2{
     color: rgb(3, 3, 3);
+    padding-top: 30px;
 
 }
 
@@ -27,7 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    opacity: 0.35;
+    opacity: 0.28;
     width:100%;
     height: 100%;
     z-index: -1;
@@ -37,13 +53,49 @@
     
 }
 
-.card {
+.jumbotron .btn-primary{
+    background-color: #81570d;
+    border:#c7b187;
     
-    width: 500px;
-    height: 500px;
+}
+
+.jumbotron .btn-primary:hover{
+    background-color: #ad8242;
+    border:#c7b187;
+    
+}
+
+.card {
+    /* gap: 40px; */
+    width: 100%;
+    height: 95%;
     margin-top: 20px;
+    
+}
+
+.card-img {
+max-height: 340px;
+}
+
+/*Destination page */
+.carousel-img {
+    max-height: 372;
+}
+
+#destinations-div h2 {
+    padding-bottom: 60px;
 }
 
 
+.d-block {
+    max-height: 320px; 
+    max-width: 600px;
+    border-radius: 10px;
+}
 
 
+/* Events page */
+.agents-img {
+   max-width: 800px; 
+   max-height: 500px;
+}
