@@ -88,8 +88,8 @@ max-height: 340px;
 
 
 .d-block {
-    max-height: 320px; 
-    max-width: 600px;
+    min-height: 220px; 
+    max-width: 350px;
     border-radius: 10px;
 }
 
@@ -98,4 +98,5 @@ max-height: 340px;
 .agents-img {
    max-width: 800px; 
    max-height: 500px;
+   border-radius: 20px;
 }
