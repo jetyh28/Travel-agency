@@ -68,8 +68,8 @@
     </div>
 
 </div>
-  
-<div class="container text-center" style="background-color: #f3f3f3" id="destinations-div">
+  <div class="container-fluid">
+<div class="container text-center" style="background-color: #f3f3f3; max-width: 1500px;"  id="destinations-div" >
   <h3>U.S Destinations</h3>
   <div class="separator" style="height:200px"></div>
 
@@ -144,7 +144,7 @@
     <span class="sr-only">Next</span>
   </a>
 
-  <p class="font-weight-bold"  style="text-decoration: underline;"> From $250 per person bus from Wilmington / Philadelphia</p>
+  <p class="font-weight-bold"  style="text-decoration: underline;"> From $250 p/p bus from Wilmington / Philadelphia</p>
 </div>
 
 
@@ -189,7 +189,7 @@
     <span class="sr-only">Next</span>
   </a>
 
-  <p class="font-weight-bold"  style="text-decoration: underline;">From $900 per person Flying out of PHL or BWI</p>
+  <p class="font-weight-bold"  style="text-decoration: underline;">From $900 p/p Flying out of PHL or BWI</p>
 </div>
     
 </div>
@@ -234,7 +234,7 @@
     <span class="sr-only">Next</span>
   </a>
 
-  <p class="font-weight-bold"  style="text-decoration: underline;">From $1400 per person Flying out of PHL or JFK</p>
+  <p class="font-weight-bold"  style="text-decoration: underline;">From $1400 p/p Flying out of PHL or JFK</p>
 </div>
 
 </div>
@@ -270,7 +270,7 @@
     <span class="sr-only">Next</span>
   </a>
 
-  <p class="font-weight-bold" style="text-decoration: underline;" >From $1800 per person flying out of PHL or JFK</p>
+  <p class="font-weight-bold" style="text-decoration: underline;" >From $1800 p/p flying out of PHL or JFK</p>
 </div>
 
 
@@ -281,7 +281,30 @@
 
 <div class="container text-center">
   <h2> Button goes here</h2>
-  <a class="btn btn-primary btn-lg" href="destinations.html" role="button"> Start Planning</a> 
+  <a class="btn btn-primary btn-lg" href="destinations.html" role="button" data-toggle="modal" data-target="#myModal"> Start Planning</a> 
+  <!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Schedule a meeting with us:</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>Call or Text: 302-857-1100</p>
+        <p>Join us on Zoom M-F 8am-5pm: http://zoom.com/examplelink</p>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
  
 </div>
 
@@ -292,6 +315,7 @@
 
 
 
+</div>
 </div>
 
 

@@ -88,9 +88,10 @@ max-height: 340px;
 
 
 .d-block {
-    min-height: 220px; 
-    max-width: 350px;
+    min-height: 400px; 
+    max-width: 500px;
     border-radius: 10px;
+    max-height:400px;
 }
 
 
