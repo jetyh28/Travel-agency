@@ -78,6 +78,13 @@ max-height: 340px;
 }
 
 /*Destination page */
+
+ul li {
+list-style-type: none;
+}
+
+
+
 .carousel-img {
     max-height: 372;
 }
